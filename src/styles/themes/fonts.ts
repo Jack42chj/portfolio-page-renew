@@ -1,6 +1,6 @@
 import { css } from "@emotion/react";
 
-export const font = {
+export const fonts = {
   regular_8: css`
     font-size: 0.8rem;
     font-weight: 400;
@@ -75,4 +75,4 @@ export const font = {
   `,
 } as const;
 
-export type FontType = typeof font;
+export type FontType = typeof fonts;
