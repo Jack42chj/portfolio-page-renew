@@ -1,4 +1,4 @@
 export { default as globalStyles } from "./globalStyles";
-export * from "./themes/color";
-export * from "./themes/font";
+export * from "./themes/colors";
+export * from "./themes/fonts";
 export * from "./themes/theme";
