@@ -6,26 +6,26 @@ const globalStyles = css`
   *,
   *::before,
   *::after {
-    box-sizing: border-box;
     margin: 0;
     border-radius: 0;
     padding: 0;
+    box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
   html {
-    font-size: 62.5%; // 10px
+    font-size: 62.5%;
   }
   body {
-    font-display: swap;
     overflow-y: auto;
+    font-display: swap;
   }
   &::-webkit-scrollbar {
     width: 4px;
   }
   &::-webkit-scrollbar-thumb {
-    background: #b0b0b0;
     border-radius: 10px;
+    background: #b0b0b0;
   }
   &::-webkit-scrollbar-track {
     background: rgba(0, 173, 181, 0.1);

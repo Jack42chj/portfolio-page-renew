@@ -1,4 +1,5 @@
-import { color } from "./color";
-import { font } from "./font";
+import { breakPoint } from "./breakPoint";
+import { colors } from "./colors";
+import { fonts } from "./fonts";
 
-export const theme = { color, font };
+export const theme = { breakPoint, colors, fonts };
