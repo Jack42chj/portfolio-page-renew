@@ -1,7 +1,9 @@
 import React from "react";
 
+import Layout from "../../layout/Layout";
+
 const Skills = () => {
-  return <div>Skills</div>;
+  return <Layout>Skills</Layout>;
 };
 
 export default Skills;
