@@ -8,7 +8,11 @@ interface LayoutBase {
 }
 
 const Layout = ({ className, children }: LayoutBase) => {
-  return <S.Layout className={className}>{children}</S.Layout>;
+  return (
+    <S.Layout className={className}>
+      <S.Column>{children}</S.Column>
+    </S.Layout>
+  );
 };
 
 export default Layout;
