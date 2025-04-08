@@ -21,7 +21,7 @@ export const fonts = {
   `,
   regular_16: css`
     font-family: "pretendard", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: calc(24 / 16);
   `,
@@ -72,6 +72,18 @@ export const fonts = {
     font-size: 2.4rem;
     font-weight: 700;
     line-height: calc(28.8 / 24);
+  `,
+  bold_36: css`
+    font-family: "pretendard", sans-serif;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: calc(60 / 36);
+  `,
+  bold_64: css`
+    font-family: "pretendard", sans-serif;
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: calc(102 / 64);
   `,
 } as const;
 
