@@ -16,9 +16,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsxImportSource": "@emotion/react",
-    "baseUrl": "src",
-    "paths": { "~*": ["./*"] }
+    "jsxImportSource": "@emotion/react"
   },
   "include": ["src", "src/types/declare/*"],
   "exclude": [
