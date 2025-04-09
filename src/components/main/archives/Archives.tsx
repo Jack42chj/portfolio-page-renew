@@ -1,9 +1,14 @@
 import React from "react";
 
+import Banner from "../../banner/Banner";
 import Layout from "../../layout/Layout";
 
 const Archives = () => {
-  return <Layout>Archives</Layout>;
+  return (
+    <Layout>
+      <Banner />
+    </Layout>
+  );
 };
 
 export default Archives;

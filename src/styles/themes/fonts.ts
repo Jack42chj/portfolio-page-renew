@@ -79,6 +79,12 @@ export const fonts = {
     font-weight: 700;
     line-height: calc(60 / 36);
   `,
+  bold_48: css`
+    font-family: "pretendard", sans-serif;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: calc(80 / 48);
+  `,
   bold_64: css`
     font-family: "pretendard", sans-serif;
     font-size: 6.4rem;

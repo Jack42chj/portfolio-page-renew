@@ -10,6 +10,7 @@ export const CardWrapper = styled.li`
     row-gap: 32px;
     width: 374px;
     height: 650px;
+    border: 2px solid ${theme.colors.blue_thrid};
     border-radius: 8px;
     padding: 0px 42px;
     background-color: ${theme.colors.blue_secondary};
