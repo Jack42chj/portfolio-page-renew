@@ -20,6 +20,15 @@ const globalStyles = css`
     overflow-y: auto;
     font-display: swap;
   }
+  button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    &[disabled] {
+      cursor: not-allowed;
+    }
+  }
   &::-webkit-scrollbar {
     width: 4px;
   }
