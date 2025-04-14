@@ -8,7 +8,11 @@ const Works = () => {
   return (
     <Layout>
       <S.Title>Works</S.Title>
-      <Card />
+      <S.CardWrapper>
+        <Card />
+        <Card />
+        <Card />
+      </S.CardWrapper>
     </Layout>
   );
 };

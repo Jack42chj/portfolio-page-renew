@@ -9,3 +9,11 @@ export const Title = styled.span`
     }
   `}
 `;
+
+export const CardWrapper = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  column-gap: 8px;
+  margin-top: 80px;
+`;
