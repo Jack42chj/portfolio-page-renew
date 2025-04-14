@@ -8,13 +8,21 @@ export const CardWrapper = styled.li`
     flex-direction: column;
     align-items: center;
     row-gap: 32px;
-    width: 374px;
-    height: 650px;
+    width: 371px;
+    height: 648px;
     border: 2px solid ${theme.colors.blue_thrid};
     border-radius: 8px;
     padding: 0px 42px;
     background-color: ${theme.colors.blue_secondary};
+    transition:
+      width 0.3s ease,
+      height 0.3s ease;
     cursor: pointer;
+
+    &:hover {
+      width: 405px;
+      height: 753px;
+    }
   `}
 `;
 
@@ -59,13 +67,14 @@ export const IconWrapper = styled.span`
   `}
 `;
 
-export const ImageWrapper = styled.div`
-  ${({ theme }) => css`
+export const ImageWrapper = styled.div<{ isHovering: boolean }>`
+  ${({ theme, isHovering }) => css`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 290px;
-    height: 290px;
+    width: 100%;
+    height: ${isHovering && "50%"};
+    aspect-ratio: 1;
     border-radius: 8px;
     background-color: ${theme.colors.white};
   `}
@@ -127,4 +136,10 @@ export const Player = styled.div`
     border-radius: 100%;
     background-color: ${theme.colors.white};
   `}
+`;
+
+export const button = css`
+  position: absolute;
+  bottom: -5%;
+  left: 12%;
 `;
